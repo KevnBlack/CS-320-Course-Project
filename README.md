@@ -24,7 +24,7 @@ The minimum expectation for the scope of the software are as follows, it:
   - Use complete and precise sentences in your SRS document.
   - Use this platform to collaborate with teammates.
   
-## Submission 1 (Due 10/07/2018 at 11:59pm, 20% of the final grade)
+## Milestone 1 Submission (Due 10/07/2018 at 11:59pm, 20% of the final grade)
 One representative needs to submit:
   - SRS document in PDF format.
   - The git log of the team work. This can be a screenshot of the commits on GitHub. Please make sure that each commit has a meaningful description.
