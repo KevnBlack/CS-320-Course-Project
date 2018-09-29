@@ -1,8 +1,9 @@
 # CS 320 Course Project: WSU Vancouver
 ## Instructor: Xinghui Zhao
 ## Team Members:
+  - Shane Bellika
   - Kevin Black
-
+  - Alex Sloan
 
 ## Introduction
 The objective of the CS 320 course project is to learn and experience processes and methods of software engineering by designing and developing a self-defined, small scale software system in a team setting. In the rest of this semester, your will work with your teammates to further explore the topic, define a software requirement specification (SRS), design a software system, implement the software system, test it and provide complete documentation and source code at the end of the semester.
