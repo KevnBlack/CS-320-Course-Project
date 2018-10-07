@@ -14,7 +14,7 @@ The minimum expectation for the scope of the software are as follows, it:
 - Has multiple other pages besides the landing page.
 - Has some data to maintain/manipulate.
 
-## Software Requirements Specification (Milestone 1)
+## Software Requirements Specification (Milestone 1) (COMPLETED ON 10/03/2018)
   A software requirements specification (SRS) is a description of a software system to be developed. It lays out functional and non-functional requirements, and may include a set of use cases that describe user interactions that the software must provide.
   Software requirements specification establishes the basis for an agreement between customers and contractors or suppliers on what the software product is to do as well as what it is not expected to do. Software requirements specifcation permits a rigorous assessment of requirements before design can begin and reduces later redesign.
   - Fill out each section of the document. If a section of the SRS is not applicable to your project, state this in the document and explain why.
