@@ -5,10 +5,8 @@
   - Kevin Black
   - Alex Sloan
 
-## Project Status: DESIGN PHASE
-
-## Project Description
-SubScruple is a free, subscription service, web-based application that users can purchase subscriptions through different services offered in their respective location. These subscriptions can be bought at different tier levels and provide extra benefits to the user depending on the tier. As the name may entail, SubScruple was formed out of the idea of a subscription based business model that concentrates the subscription purchases of every user in one place. The aim of this product is to collect subscription data from the user and store it internally in such a way that reduces the time and complexity of managing subscription records. This product is simply not a follow-on member of a higher product family, but a new, self-contained product with inspiration drawn from current subscription based models/applications. The following sections describe the milestones currently being worked on for this project.
+## Project Description (Status: DESIGN PHASE)
+**SubScruple** is a free, subscription service, web-based application that users can purchase subscriptions through different services offered in their respective location. These subscriptions can be bought at different tier levels and provide extra benefits to the user depending on the tier. As the name may entail, **SubScruple** was formed out of the idea of a subscription based business model that concentrates the subscription purchases of every user in one place. The aim of this product is to collect subscription data from the user and store it internally in such a way that reduces the time and complexity of managing subscription records. This product is simply not a follow-on member of a higher product family, but a new, self-contained product with inspiration drawn from current subscription based models/applications. The following sections describe the milestones currently being worked on for this project.
 
 ## Introduction
 The objective of the CS 320 course project is to learn and experience processes and methods of software engineering by designing and developing a self-defined, small scale software system in a team setting. In the rest of this semester, your will work with your teammates to further explore the topic, define a software requirement specification (SRS), design a software system, implement the software system, test it and provide complete documentation and source code at the end of the semester.
