@@ -33,7 +33,7 @@ One representative needs to submit:
   - SRS document in PDF format.
   - The git log of the team work. This can be a screenshot of the commits on GitHub. Please make sure that each commit has a meaningful description.
 
-## Software Design (Milestone 2) (IN PROGRESS)
+## Software Design (Milestone 2) (COMPLETED ON 10/18/2018)
   Software design is a process by which the software requirements are translated into a representation of software components, interfaces, and data necessary for the implementation phase. The Software Design Document (SDD) shows how the software system will be structured to satisfy the requirements. It is the primary reference for code development, therefore, it must contain all the information required by a programmer to write code. In this phase, you will design the system structure and behavior using the following UML diagrams:
   - Activity Diagrams: Revisit the use case diagram(s) you included in the SRS. Design an activity diagram for each scenario. Note that you do not need to design an activity diagram for every use case/scenario, i.e., you can ignore the use cases which are easy to implement, and only include activity diagrams for the more complex ones. To achieve better traceability and easier validation at later
 stage of the project, you should reference your SRS when possible, e.g. Activity Diagram 2 models Use Case 5. This enables traceability. Also, you should use the "swimlane" type of
