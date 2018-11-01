@@ -1,0 +1,23 @@
+.top.menu {
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: lightblue;
+  box-shadow: none;
+  border: none;
+}
+
+.bottom-background {
+  background-color: #292929;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 380px;
+}
+
+.column {
+  width:370px;
+  float:left;
+}
+
+.services {
+  position: absolute;
+}
