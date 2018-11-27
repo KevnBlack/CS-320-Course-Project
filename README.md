@@ -5,7 +5,7 @@
   - Kevin Black
   - Alex Sloan
 
-## Project Description (Status: DESIGN PHASE)
+## Project Description (Status: IMPLEMENTATION PHASE)
 **SubScruple** is a free, subscription service, web-based application that users can purchase subscriptions through different services offered in their respective location. These subscriptions can be bought at different tier levels and provide extra benefits to the user depending on the tier. As the name may entail, **SubScruple** was formed out of the idea of a subscription based business model that concentrates the subscription purchases of every user in one place. The aim of this product is to collect subscription data from the user and store it internally in such a way that reduces the time and complexity of managing subscription records. This product is simply not a follow-on member of a higher product family, but a new, self-contained product with inspiration drawn from current subscription based models/applications. The following sections describe the milestones currently being worked on for this project.
 
 ## Introduction
