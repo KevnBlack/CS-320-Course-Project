@@ -46,3 +46,24 @@ data-driven.
 One representative needs to submit:
   - Design document in PDF format.
   - A text file which contains the link to the GitHub page of your project.
+  
+## Software, Presentation, and Final Report (Milestone 3) (COMPLETED ON 12/XX/2018)
+  Now that you have an approved software design, you should start working on the implementation of the software, as well as the testing. During the development phase, you should use GitHub for version control. The final deliverables of the project include the software, documentation (project final report), and an oral presentation. In your GitHub repo, maintain two folders, one "app" folder which contains all the source code, and one "doc" folder which contains the final report, screenshots, and other non-source code files.
+
+For the implementation, you should start with the user interface design, and develop mockup pages for the app. You are not required to use Semantic UI for the project, although it is recommended that you use some UI framework. Similarly, you may choose Meteor or any other web app frameworks to use.
+
+In the week of 12/03, you and your team members should present the project in class. A detailed schedule will be posted on Blackboard. Note that you should practice offline and make sure that you can finish your presentation in the assigned time slot (8 min: 5 min for presentation, 3 min for questions). You will be timed on the presentation day. In terms of the format of the presentation, you can choose one from the following:
+  - Powerpoint presentation: If you choose to use powerpoint, you can send your slides to me via email on the day before your presentation day, so that I can put all the slides together to streamline the process.
+  - Live demo: If you choose this format, you can use your own computer. But please make sure that your device works with the projector. It is a good idea to test it out before the class.
+  
+During the development phase, you should also work on writing the final report. A template is provided. It is easier if you complete the sections while you are developing the application, as opposed to waiting until the end of the semester to do it. The template has instructions in each section, make sure that you following those instructions carefully. Here is a list of the required sections:
+  - Introduction: An overview of the project (you can use some of the text from your SRS).
+  - Design: This includes both the system modeling (if you have updated your UMLs) and the interface design (screenshots of mockups).
+  - Implementation: Explain the development environment, tasks distribution among team members, and challenges you must address during the development.
+  - Testing: Explain the testing plan, and your strategies of testing both functional and non-functional requirements.
+  - Analysis: Explain the lessons learned during the process.
+
+## Milestone 3 Submission (Due 12/13/2018 at 11:59pm, 20% of the final grade)
+One representative needs to submit:
+  - Final report in PDF format.
+  - Source code in a zip file.
