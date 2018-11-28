@@ -19,12 +19,12 @@ export const StuffSchema = new SimpleSchema({
     },
   },
   company: {
-    label: 'Company',
+    label: 'Parent Company',
     type: String,
-    optional: false,
+    optional: true,
     max: 35,
     autoform: {
-      placeholder: 'Company name',
+      placeholder: 'Name of parent company',
     },
   },
   monthly: {
