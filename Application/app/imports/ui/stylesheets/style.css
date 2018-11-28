@@ -6,3 +6,12 @@ body {
 .login-link-text {
   color: white !important;
 }
+
+.bottom-background {
+  height: 150px;
+}
+
+.column {
+  width:370px;
+  float:left
+}

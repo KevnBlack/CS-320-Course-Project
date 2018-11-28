@@ -9,49 +9,49 @@ export const Stuff = new Mongo.Collection('Stuff');
  * Create the schema for Stuff
  */
 export const StuffSchema = new SimpleSchema({
-  firstName: {
-    label: 'First',
+  subName: {
+    label: 'Subscription Name',
     type: String,
     optional: false,
     max: 35,
     autoform: {
-      placeholder: 'First Name',
+      placeholder: 'Name of your subscription',
     },
   },
-  lastName: {
-    label: 'Last',
+  company: {
+    label: 'Company',
     type: String,
     optional: false,
     max: 35,
     autoform: {
-      placeholder: 'Last Name',
+      placeholder: 'Company name',
     },
   },
-  address: {
-    label: 'Address',
+  monthly: {
+    label: 'Monthly Price',
     type: String,
     optional: false,
-    max: 50,
+    max: 10,
     autoform: {
-      placeholder: 'Address',
+      placeholder: 'Price you pay monthly',
     },
   },
-  phone: {
-    label: 'Telephone',
+  yearly: {
+    label: 'Yearly Price',
     type: String,
     optional: false,
-    max: 15,
+    max: 10,
     autoform: {
-      placeholder: 'Telephone',
+      placeholder: 'Price you pay yearly',
     },
   },
   email: {
     label: 'Email',
     type: String,
-    optional: false,
+    optional: true,
     max: 50,
     autoform: {
-      placeholder: 'Email',
+      placeholder: 'Email used for subscription',
     },
   },
 });

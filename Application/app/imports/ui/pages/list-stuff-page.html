@@ -5,11 +5,11 @@
         <table class="ui celled table">
           <thead>
           <tr>
-            <th>First</th>
-            <th>Last</th>
-            <th>Address</th>
-            <th>Phone</th>
-            <th>Email</th>
+            <th>Subscription</th>
+            <th>Company</th>
+            <th>Monthly Price</th>
+            <th>Yearly Price</th>
+            <th>Subscription Email</th>
             {{#if currentUser}}
               <th>Edit</th>
             {{/if}}
@@ -18,10 +18,10 @@
           <tbody>
           {{#each stuff in stuffList}}
             <tr>
-              <td>{{stuff.firstName}}</td>
-              <td>{{stuff.lastName}}</td>
-              <td>{{stuff.address}}</td>
-              <td>{{stuff.phone}}</td>
+              <td>{{stuff.subName}}</td>
+              <td>{{stuff.company}}</td>
+              <td>{{stuff.monthly}}</td>
+              <td>{{stuff.yearly}}</td>
               <td>{{stuff.email}}</td>
               {{#if currentUser}}
                 <td><a href="{{pathFor 'Edit_Stuff_Page' _id=stuff._id}}" style="color: dodgerblue;">Edit</a></td>
