@@ -1,5 +1,42 @@
 <template name="Profile">
-  {{#If_Logged_In}}
-    Hello there.
-  {{/If_Logged_In}}
+  <div style="padding-left: 205px; padding-right: 205px;">
+  <div class="ui form segment">
+    <div class="three required fields">
+      <div class="field">
+        <label>Name</label>
+        <div class="ui input">
+          <input type="text" placeholder="Enter your full name here">
+        </div>
+      </div>
+      <div class="field">
+        <label>Gender</label>
+        <select>
+          <option value="">Select</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+          <option value="3">Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Opt in to Emails?</label>
+        <select>
+          <option value="">Select</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </select>
+      </div>
+    </div>
+    <div class="field">
+      <label>Biography</label>
+      <textarea placeholder="Tell everyone about yourself."></textarea>
+    </div>
+    <div class="one field">
+      <div class="field">
+        <label>Need technical help?</label>
+        Send us an email at kevin.black@wsu.edu.
+      </div>
+    </div>
+    <div class="ui submit button">Submit</div>
+  </div>
+  </div>
 </template>

@@ -27,3 +27,11 @@ body {
 .ui.menu {
   border-radius: 0;
 }
+
+.item_foot {
+  padding: 10px;
+}
+
+.links {
+  color: black;
+}

@@ -3,9 +3,10 @@
     <div class="ui container" style="padding-top: 0;">
       <a class="item" href="{{pathFor 'Home_Page'}}"><h1 style="color: white;">SubScruple</h1></a>
       {{#if currentUser}}
+        <a class="{{ isActiveRoute 'Services'}} item" href="{{ pathFor 'Services' }}" style="color: white;">Services</a>
         <a class="{{ isActiveRoute 'Add_Stuff_Page'}} item" href="{{ pathFor 'Add_Stuff_Page' }}" style="color: white;">Add Subscription</a>
         <a class="{{ isActiveRoute 'List_Stuff_Page'}} item" href="{{ pathFor 'List_Stuff_Page' }}" style="color: white;">Your Subscriptions</a>
-        <a class="item" style="color: white;">Your Profile</a>
+        <a class="{{ isActiveRoute 'Profile' }} item" href="{{pathFor 'Profile' }}" style="color: white;">Your Profile</a>
         <a class="item" style="color: white;">Notifications</a>
       {{/if}}
       <a href="#" class="right aligned item">{{> loginButtons align="right"}}</a>
@@ -15,13 +16,19 @@
       <i class="dropdown icon"></i>
       <div class="menu">
         <div class="item">
-          Select 'Add Subscription' to add to your subscription list
+          Select 'Services' to view various services offered across the web.
         </div>
         <div class="item">
-          Select 'Your Subscriptions' to view/edit your subscriptions
+          Select 'Add Subscription' to add to your subscription list.
         </div>
         <div class="item">
-          Select 'Your Profile' to view/edit your personal info
+          Select 'Your Subscriptions' to view/edit your subscriptions.
+        </div>
+        <div class="item">
+          Select 'Your Profile' to view/edit your personal info.
+        </div>
+        <div class="item">
+          Select 'Notifications' to view notifications about services.
         </div>
       </div>
     </div>
