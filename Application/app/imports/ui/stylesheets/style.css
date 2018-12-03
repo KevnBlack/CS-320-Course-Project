@@ -1,6 +1,14 @@
+html {
+  background-image: url("images/bg25.jpg");
+  background-size: cover;
+  background-position: 75% 50%;
+
+}
+
 body {
   padding-top: 0;  /* Move body of page below navbar. */
   padding-bottom: 0;
+  background-color: rgba(255, 0, 0, 0.0);
 }
 
 .login-link-text {
@@ -14,4 +22,16 @@ body {
 .column {
   width:370px;
   float:left
+}
+
+.ui.menu {
+  border-radius: 0;
+}
+
+.item_foot {
+  padding: 10px;
+}
+
+.links {
+  color: black;
 }
